@@ -1,26 +1,16 @@
 import java.util.Scanner;
 
-/*These comments are used to add longer explanations or to comment out blocks of code that should not be executed. */
 import java.util.Set;
 
-/** 
- *Within them, a specific syntax is used to describe elements such as classes, methods, variables. 
-*The comments are processed by the javadoc tool to generate HTML documentation of the code.
-*/
 public class FreedAInew {
     public static void main(String[] args) throws Exception {
 
-//Create a variable (and a constant if the language supports it).
         //operators
         //Arithmetic operators
 
-int age = 7; // Integer variable with initial value 7
-final int PI=314159; // Approximate value of Pi
         var A= 10;
         int B= 5;
 
-public class FreedAInew {
-    public static void main(String[] args) {
         System.out.println("Sum: " + (A + B)); 
         System.out.println("Remainder: " + (A - B)); 
         System.out.println("Multiplication: " + (A * B)); 
@@ -229,19 +219,8 @@ public class FreedAInew {
           }
 
 
-//Creates variables representing all the language's primitive data types (text strings, integers, booleans...).
         System.out.println("see you tomorrow!");
 
- byte weight = 30;
- short temperature = 46;
- int ageInYears = 7;
- long nationalId = 1234567456L;
- float pi = 3.141592f;
- double e = 2.718281828459045;
- boolean isStudent = true
- char symbol = 'UwU';
 
-System.ou.println("hi"+java);
     }
 }
-
